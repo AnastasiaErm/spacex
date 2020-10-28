@@ -25,7 +25,7 @@ const Calendar = () => {
 									</div>
 									<div className="launches-content">
 										<h2 className="launches-title">{item.name}</h2>
-										<Link to={`/details/${item.id}`} className="button launches-details">Подробнее</Link>
+										<Link to={`/spacex/details/${item.id}`} className="button launches-details">Подробнее</Link>
 									</div>
 								</article>
 							</li>
