@@ -8,13 +8,21 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-rellax-wrapper": "^1.0.5",
+    "react-scripts": "3.4.3",
+    "react-youtube": "^7.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build" 
+  },
+  "homepage": "https://anastasiaerm.github.io/spacex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaErm/spacex.git"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "react-router-dom": "^5.2.0"
   }
 }
