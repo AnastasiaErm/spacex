@@ -56,7 +56,7 @@ const Features = ({
 					</table>
 					<RellaxWrapper speed={14}>
 						<img
-								src={`./img/${rocketImages[name]}.png`}
+								src={`../img/${rocketImages[name]}.png`}
 								alt="rocket"
 								className="rocket"
 						/>
