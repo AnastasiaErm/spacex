@@ -20,10 +20,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build" 
   },
-  "homepage": "https://anastasiaerm.github.io/spacex",
+  "homepage": "https://ankkiel.github.io/spacex",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnastasiaErm/spacex.git"
+    "url": "git+https://github.com/ankkiel/spacex.git"
   },
   "eslintConfig": {
     "extends": "react-app"
